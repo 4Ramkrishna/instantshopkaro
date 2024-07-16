@@ -20,11 +20,7 @@ const app = express();
 // middleware configuration..
 // app.use(cors());
 
-app.use(cors({
-    origin: 'https://instantshopkaro-git-main-rams-projects-72111c84.vercel.app', 
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true,
-}));
+app.use(cors());
 
 app.use(express.json());
 app.use(morgan("dev"));
