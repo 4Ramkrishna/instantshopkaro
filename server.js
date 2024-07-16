@@ -21,7 +21,7 @@ const app = express();
 // app.use(cors());
 
 app.use(cors({
-    origin: 'https://instantshopkaro.vercel.app', 
+    origin: 'https://instantshopkaro-pne87nq9q-rams-projects-72111c84.vercel.app', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true,
 }));
